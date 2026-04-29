@@ -1,21 +1,24 @@
-# 📊 Student Study Time Optimization Using Machine Learning
+#  Student Study Time Optimization Using Machine Learning
 
-##  Project Description
-This project develops a machine learning-based system that analyzes student behavioral and academic data to optimize study time and improve academic performance. The system identifies patterns in learning behavior and provides personalized study recommendations.
+## Research Context
+This project is part of a research study in Machine Learning focusing on educational data mining and student behavior analysis. The goal is to improve student academic performance by analyzing study habits and providing optimized study time recommendations using predictive analytics.
 
+## Project Description
+This system uses machine learning to analyze student behavioral and academic data and predict performance levels. Based on predictions, it provides recommendations to optimize study time and improve learning efficiency.
 
-## Objective
-To build a machine learning model that predicts student performance and recommends optimized study time based on behavioral data.
+## Objectives
+- To analyze student behavioral patterns affecting academic performance.
+- To build a machine learning model for predicting student outcomes.
+- To generate study time optimization recommendations based on predictions.
 
 ## Dataset
-The dataset used in this project is from publicly available educational sources (Kaggle or UCI Machine Learning Repository). It includes features such as:
+The current implementation uses a synthetic dataset for demonstration purposes. It includes features such as:
 - Study time
 - Attendance
 - Assignment scores
-- Participation level
-- Final academic performance
+- Performance label
 
-
+In future development, real-world datasets from Kaggle or UCI Machine Learning Repository will be used.
 
 ## Technologies Used
 - Python
@@ -23,35 +26,39 @@ The dataset used in this project is from publicly available educational sources 
 - NumPy
 - Scikit-learn
 
-
-
-## Machine Learning Models
-- Random Forest
+## Machine Learning Approach
+The system applies supervised learning techniques including:
+- Random Forest Classifier
 - Decision Tree
 - Logistic Regression
 - Support Vector Machine (SVM)
 
-## Workflow
-1. Load dataset  
-2. Preprocess data (cleaning, encoding, scaling)  
-3. Split data into training and testing sets  
-4. Train machine learning models  
-5. Evaluate performance  
-6. Recommend optimized study patterns  
+The best-performing model is selected based on evaluation metrics.
 
 
-##  Evaluation Metrics
+## System Workflow
+1. Data Collection  
+2. Data Preprocessing  
+3. Feature Selection  
+4. Model Training  
+5. Model Evaluation  
+6. Study Time Recommendation Generation  
+
+
+## Evaluation Metrics
 - Accuracy  
 - Precision  
 - Recall  
 - F1-score  
 
 
-
 ##  Expected Outcome
-A system that predicts student performance and suggests optimized study time based on behavioral patterns.
+A machine learning system capable of predicting student performance and suggesting optimized study time strategies based on behavioral patterns.
 
 
 
 ## Author
 Bethel (Hawassa University – Computer Science)
+
+##  Note
+This project is developed for academic research purposes as part of a Machine Learning course requirement.
